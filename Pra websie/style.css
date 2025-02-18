@@ -1,0 +1,156 @@
+@font-face{
+    src:url(fonts/BOOTERZZ.ttf) ;
+    font-family: booter-font;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+body{
+    margin: 0px;
+    height: 1010%;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-image: url("images.jpg");
+    height: 210px;
+    margin-top: 0px;;
+    margin: auto;
+    
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-family: "booter-font", Tahoma , Verdana;
+    color: hsl(30, 100%, 50%);
+    font-size: 6em;
+    text-align: center;
+}
+nav{
+    display: flex;
+
+}
+.b1{
+    border: none;
+    background-color:hsl(30, 100%, 50%);
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1.2s;
+}
+.b1:hover{
+    box-shadow: 8px 4px 14px hsl(30, 100%, 50%);
+}
+
+#button4{
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+    background-image: url("images.jpg");
+    color:hsl(30, 100%, 50%);
+    border: solid hsl(30, 100%, 50%);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.8s;
+
+}
+#get{
+    color: white;
+}
+#button4:hover{
+    background-color:hsl(30, 100%, 50%);
+    border-color: hsl(30, 100%, 50%);
+    border-radius: 5px;
+    text-shadow: 5px 2px 6px hsl(30, 100%, 50%);
+
+}
+.hoho{
+    text-decoration: none;
+    color: hsl(30, 100%, 50%);
+}
+.tour-h2{
+    font-family: booter-font;
+    text-align: center;
+    font-size: 3em;
+}
+
+#main{
+    border: 2px dashed hsl(30, 100%, 50%);
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    
+}
+.pq{
+    margin-left: 0px;
+}
+table{
+    margin:auto;
+    align-items: center;
+    text-align: center; 
+    border: 2px groove ;
+}
+h2{
+    font-family: booter-font;
+    text-align: center;
+    font-size: 3em;
+}
+.logo-spacing{
+    margin-left: 1090px;
+    margin-bottom: 30px;
+}
+h3{
+    font-family: booter-font; 
+}
+.logospace-1{
+    margin-right: 20px;
+}
+.main8{
+    width: 500px;
+}
+#message{
+    border: 1px dotted hsl(30, 100%, 50%);
+    font-size: 1.4em;
+    font-family: tahoma;
+    padding: 20px;
+    width: 500px;
+    margin-left: 20px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.footer-paragraph{
+    font-size: 1.4em;
+    margin-left: 20px;
+    font-family: tahoma;
+}
+#submit{
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+#name{
+    height: 35px;
+    width: 300px
+}
+#email{
+    height: 35px;
+    width: 353px
+}
+#textarea{
+    height: 100px;
+    width: 300px
+}
